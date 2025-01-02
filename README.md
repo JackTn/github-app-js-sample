@@ -4,7 +4,7 @@ This sample app showcases how webhooks can be used with a GitHub App's installat
 
 ## Requirements
 
-- Node.js 20 or higher
+- Node.js 20 or higher aaa
 - A GitHub App subscribed to **Pull Request** events and with the following permissions:
   - Pull requests: Read & write
   - Metadata: Read-only
@@ -41,3 +41,6 @@ by major cloud providers:
 [AWS Secrets Manager](https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/clients/client-secrets-manager/),
 [Google Secret Manager](https://cloud.google.com/nodejs/docs/reference/secret-manager/latest),
 etc.
+
+## How to run
+> npx smee -u https://smee.io/eGcLremBAAGr6P0q -t http://localhost:3000/api/webhook
